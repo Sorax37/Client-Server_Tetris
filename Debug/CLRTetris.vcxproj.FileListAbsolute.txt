@@ -1,0 +1,5 @@
+D:\Study\PKSP\CLRTetris\Debug\CLRTetris.vcxprojAssemblyReference.cache
+D:\Study\PKSP\CLRTetris\Debug\CLRTetris.exe
+D:\Study\PKSP\CLRTetris\Debug\CLRTetris.pdb
+D:\Study\PKSP\CLRTetris\Debug\CLRTetris.menuWindow.resources
+D:\Study\PKSP\CLRTetris\Debug\CLRTetris.vcxproj.GenerateResource.cache

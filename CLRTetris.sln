@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
@@ -29,3 +29,4 @@ Global
 		SolutionGuid = {5AC80F1C-32C1-4475-8663-EB9959441F0D}
 	EndGlobalSection
 EndGlobal
+

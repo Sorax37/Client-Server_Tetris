@@ -74,7 +74,7 @@ namespace CLRTetris {
     using namespace std;
 
 	/// <summary>
-	/// Сводка для menuWindow
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї menuWindow
 	/// </summary>
 	public ref class menuWindow : public System::Windows::Forms::Form
 	{
@@ -83,13 +83,13 @@ namespace CLRTetris {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~menuWindow()
 		{
@@ -106,14 +106,14 @@ namespace CLRTetris {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -270,7 +270,7 @@ namespace CLRTetris {
 
                 timer = 0;
 
-                for (int i = 0; i < N; i++) //проверка на конец игры
+                for (int i = 0; i < N; i++) //ГЇГ°Г®ГўГҐГ°ГЄГ  Г­Г  ГЄГ®Г­ГҐГ¶ ГЁГЈГ°Г»
                 {
                     if (field[1][i])
                     {
@@ -320,7 +320,7 @@ namespace CLRTetris {
 
             dx = 0;
             rotate = 0;
-            delay = 1 - score * 0.00005;//скорость падения тетрамино (сделать уровень сложности)
+            delay = 1 - score * 0.00005;//Г±ГЄГ®Г°Г®Г±ГІГј ГЇГ Г¤ГҐГ­ГЁГї ГІГҐГІГ°Г Г¬ГЁГ­Г® (Г±Г¤ГҐГ«Г ГІГј ГіГ°Г®ГўГҐГ­Гј Г±Г«Г®Г¦Г­Г®Г±ГІГЁ)
 
             /////////draw//////////
             window.clear(sf::Color::White);

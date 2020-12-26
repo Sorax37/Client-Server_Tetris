@@ -1,0 +1,12 @@
+﻿  menuWindow.cpp
+D:\Study\PKSP\CLRTetris\menuWindow.h(187,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Study\PKSP\CLRTetris\menuWindow.h(207,1): warning C4305: инициализация: усечение из "double" в "float"
+D:\Study\PKSP\CLRTetris\menuWindow.h(233,1): warning C4305: =: усечение из "double" в "float"
+D:\Study\PKSP\CLRTetris\menuWindow.h(323,23): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Study\PKSP\CLRTetris\menuWindow.h(334,45): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Study\PKSP\CLRTetris\menuWindow.h(334,37): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Study\PKSP\CLRTetris\menuWindow.h(342,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Study\PKSP\CLRTetris\menuWindow.h(342,38): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Study\PKSP\CLRTetris\menuWindow.h(195,18): warning C4996: 'sf::Text::setColor': объявлен deprecate
+  gameWindow.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  CLRTetris.vcxproj -> D:\Study\PKSP\CLRTetris\Debug\CLRTetris.exe
